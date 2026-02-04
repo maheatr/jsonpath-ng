@@ -2,7 +2,8 @@ import logging
 import sys
 import os.path
 
-import jsonpath_ng._ply.yacc
+#import jsonpath_ng._ply.yacc
+from ._ply import yacc
 
 from jsonpath_ng.exceptions import JsonPathParserError
 from jsonpath_ng.jsonpath import *
